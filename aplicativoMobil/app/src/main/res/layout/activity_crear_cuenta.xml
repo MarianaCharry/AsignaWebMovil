@@ -6,4 +6,16 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#487BFF"
-    tools:context=".crear_cuenta"/>
+    tools:context=".crear_cuenta">
+
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/fragmentContainerView"
+        android:name="com.example.asignaweb.formularioCrearcuenta"
+        android:layout_width="329dp"
+        android:layout_height="568dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
