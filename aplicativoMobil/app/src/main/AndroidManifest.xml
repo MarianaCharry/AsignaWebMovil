@@ -13,6 +13,18 @@
         android:theme="@style/Theme.AsignaWeb"
         tools:targetApi="31">
         <activity
+            android:name=".info_gimnasio"
+            android:exported="false" />
+        <activity
+            android:name=".info_canchas"
+            android:exported="false" />
+        <activity
+            android:name=".infoBiblioteca"
+            android:exported="false" />
+        <activity
+            android:name=".infoAuditorio"
+            android:exported="false" />
+        <activity
             android:name=".eliminar_cuenta"
             android:exported="false" />
         <activity
