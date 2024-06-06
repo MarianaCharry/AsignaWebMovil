@@ -25,9 +25,11 @@ class MainActivity : AppCompatActivity() {
         var intent= Intent(application,crear_cuenta::class.java)
         startActivity(intent)
     }
-
     fun modulo_informacion(view: View){
         var intent= Intent(application,modulo_informacion::class.java)
+    fun recuperar_password(view: View){
+        var intent= Intent(application,recuperar_password::class.java)
         startActivity(intent)
     }
+}
 }
