@@ -13,10 +13,10 @@ private const val ARG_PARAM2 = "param2"
 
 /**
  * A simple [Fragment] subclass.
- * Use the [biblioteca.newInstance] factory method to
+ * Use the [contenedorFormularioReserva.newInstance] factory method to
  * create an instance of this fragment.
  */
-class biblioteca : Fragment() {
+class contenedorFormularioReserva : Fragment() {
     // TODO: Rename and change types of parameters
     private var param1: String? = null
     private var param2: String? = null
@@ -34,7 +34,7 @@ class biblioteca : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_biblioteca, container, false)
+        return inflater.inflate(R.layout.fragment_contenedor_formulario_reserva, container, false)
     }
 
     companion object {
@@ -44,12 +44,12 @@ class biblioteca : Fragment() {
          *
          * @param param1 Parameter 1.
          * @param param2 Parameter 2.
-         * @return A new instance of fragment biblioteca.
+         * @return A new instance of fragment contenedorFormularioReserva.
          */
         // TODO: Rename and change types and number of parameters
         @JvmStatic
         fun newInstance(param1: String, param2: String) =
-            biblioteca().apply {
+            contenedorFormularioReserva().apply {
                 arguments = Bundle().apply {
                     putString(ARG_PARAM1, param1)
                     putString(ARG_PARAM2, param2)

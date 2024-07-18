@@ -13,6 +13,12 @@
         android:theme="@style/Theme.AsignaWeb"
         tools:targetApi="31">
         <activity
+            android:name=".iniciarSesion"
+            android:exported="false" />
+        <activity
+            android:name=".reservaciones"
+            android:exported="false" />
+        <activity
             android:name=".info_gimnasio"
             android:exported="false" />
         <activity
