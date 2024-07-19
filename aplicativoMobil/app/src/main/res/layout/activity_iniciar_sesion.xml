@@ -126,6 +126,7 @@
         android:layout_height="45dp"
         android:backgroundTint="#1B9607"
         android:fontFamily="@font/jomhuria"
+        android:onClick="espacios"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
